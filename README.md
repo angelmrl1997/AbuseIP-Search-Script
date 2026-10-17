@@ -43,13 +43,21 @@ A comprehensive Python utility to inspect single IP addresses or process bulk IP
 
 ## Installation Guide
 
-### Option 1: Using Anaconda (Recommended)
+### Using Anaconda (Recommended)
 
 1. Open **Anaconda Prompt** from the Windows Start menu.
 2. Install the necessary package:
 ```
 conda install requests urllib3
 pip install requests urllib3
+```
+3. Remember to change the API KEY in the script file.
+
+```
+# ==========================================
+# PASTE YOUR ABUSEIPDB API KEY HERE
+API_KEY = "YOUR_API_KEY_HERE"
+# ==========================================
 ```
    
 ## Usage & Execution
