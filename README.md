@@ -11,7 +11,7 @@ A comprehensive Python utility to inspect single IP addresses or process bulk IP
 3. [Prerequisites & Dependencies](#prerequisites--dependencies)
 4. [Installation Guide](#installation-guide)
 5. [Usage & Execution](#usage--execution)
-6. [Execution Workflow & Outputs](#Execution-Workflow-Outputs)
+6. [Execution Workflow & Outputs](#execution-workflow--outputs)
 ---
 
 ## Features
