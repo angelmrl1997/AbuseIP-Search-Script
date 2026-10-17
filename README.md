@@ -53,7 +53,7 @@ A comprehensive Python utility to inspect single IP addresses or process bulk IP
    ```bash
    conda install requests urllib3
    pip install requests urllib3
-   ´´´
+   ```
    
 ## Usage & Execution
 
@@ -61,7 +61,7 @@ A comprehensive Python utility to inspect single IP addresses or process bulk IP
 
 ```
 python ipsearcher.py -i 8.8.8.8
-´´´
+```
 
 Output:
 ```
@@ -80,7 +80,7 @@ Output:
  Reported Attack Categories:
   - None (IP clean / No reports)
 =================================================================
-´´´
+```
 
 # 2. Bulk File Inspection (-f)
 
@@ -90,11 +90,11 @@ Prepare a text file (e.g., ips.txt) with target IP addresses. Lines, spaces, com
 144.31.34.104/32 144.31.34.109/32 2.27.98.43/32
 93.88.206.223/32
 2.20.49.149
-´´´
+```
 
 ```
 python ipsearcher.py -f ips.txt
-´´´
+```
 
 What happens during execution:
 Valid IPv4 addresses are extracted and deduplicated.
