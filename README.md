@@ -102,7 +102,7 @@ Prepare a text file (e.g., ips.txt) with target IP addresses. Lines, spaces, com
 python ipsearcher.py -f ips.txt
 ```
 
-## 6 Execution Workflow & Outputs
+## Execution Workflow & Outputs
 
 Valid IPv4 addresses are extracted and deduplicated.
 
