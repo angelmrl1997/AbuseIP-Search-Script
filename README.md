@@ -51,4 +51,56 @@ A comprehensive Python utility to inspect single IP addresses or process bulk IP
 1. Open **Anaconda Prompt** from the Windows Start menu.
 2. Install the necessary package:
    ```bash
-   conda install requests
+   conda install requests urllib3
+   pip install requests urllib3
+   ´´´
+   
+## Usage & Execution
+
+# 1. Single IP Inspection (-i)
+
+```
+python ipsearcher.py -i 8.8.8.8
+´´´
+
+Output:
+```
+=================================================================
+ AbuseIPDB Lookup Result: 8.8.8.8
+=================================================================
+ Location     : US
+ ISP          : Google LLC
+ Domain       : google.com
+ Total Reports: 0 (Last 90 days)
+ Last Reported: Never
+
+ Malicious Score (Abuse Confidence):
+ [------------------------------] 0%
+
+ Reported Attack Categories:
+  - None (IP clean / No reports)
+=================================================================
+´´´
+
+# 2. Bulk File Inspection (-f)
+
+Prepare a text file (e.g., ips.txt) with target IP addresses. Lines, spaces, commas, or CIDR suffixes (/32) are supported:
+
+```
+144.31.34.104/32 144.31.34.109/32 2.27.98.43/32
+93.88.206.223/32
+2.20.49.149
+´´´
+
+```
+python ipsearcher.py -f ips.txt
+´´´
+
+What happens during execution:
+Valid IPv4 addresses are extracted and deduplicated.
+
+The script queries AbuseIPDB sequentially, displaying the live score bar for each IP in the terminal.
+
+Once completed, it generates an interactive file named abuseipdb_ips_<timestamp>.html.
+
+Double-click the .html file to view the dashboard in Google Chrome, Microsoft Edge, or Firefox.
