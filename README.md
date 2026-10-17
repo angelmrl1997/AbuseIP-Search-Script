@@ -10,10 +10,7 @@ A comprehensive Python utility to inspect single IP addresses or process bulk IP
 2. [How It Works](#how-it-works)
 3. [Prerequisites & Dependencies](#prerequisites--dependencies)
 4. [Installation Guide](#installation-guide)
-5. [Configuration & Full Script Code](#configuration--full-script-code)
-6. [Usage & Execution](#usage--execution)
-7. [Corporate Proxy & SSL Troubleshooting](#corporate-proxy--ssl-troubleshooting)
-
+5. [Usage & Execution](#usage--execution)
 ---
 
 ## Features
@@ -50,10 +47,10 @@ A comprehensive Python utility to inspect single IP addresses or process bulk IP
 
 1. Open **Anaconda Prompt** from the Windows Start menu.
 2. Install the necessary package:
-   ```bash
-   conda install requests urllib3
-   pip install requests urllib3
-   ```
+```
+conda install requests urllib3
+pip install requests urllib3
+```
    
 ## Usage & Execution
 
