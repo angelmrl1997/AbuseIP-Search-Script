@@ -11,6 +11,7 @@ A comprehensive Python utility to inspect single IP addresses or process bulk IP
 3. [Prerequisites & Dependencies](#prerequisites--dependencies)
 4. [Installation Guide](#installation-guide)
 5. [Usage & Execution](#usage--execution)
+6. [Execution Workflow & Outputs] (#Execution-Workflow--Outputs)
 ---
 
 ## Features
@@ -58,7 +59,7 @@ pip install requests urllib3
 # PASTE YOUR ABUSEIPDB API KEY HERE
 API_KEY = "YOUR_API_KEY_HERE"
 # ==========================================
-```
+``` 
    
 ## Usage & Execution
 
@@ -101,7 +102,8 @@ Prepare a text file (e.g., ips.txt) with target IP addresses. Lines, spaces, com
 python ipsearcher.py -f ips.txt
 ```
 
-What happens during execution:
+## 6 Execution Workflow & Outputs
+
 Valid IPv4 addresses are extracted and deduplicated.
 
 The script queries AbuseIPDB sequentially, displaying the live score bar for each IP in the terminal.
