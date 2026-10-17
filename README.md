@@ -63,7 +63,7 @@ API_KEY = "YOUR_API_KEY_HERE"
    
 ## Usage & Execution
 
-# 1. Single IP Inspection (-i)
+### 1. Single IP Inspection (-i)
 
 ```
 python ipsearcher.py -i 8.8.8.8
@@ -88,7 +88,7 @@ Output:
 =================================================================
 ```
 
-# 2. Bulk File Inspection (-f)
+### 2. Bulk File Inspection (-f)
 
 Prepare a text file (e.g., ips.txt) with target IP addresses. Lines, spaces, commas, or CIDR suffixes (/32) are supported:
 
