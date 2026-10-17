@@ -60,6 +60,8 @@ pip install requests urllib3
 API_KEY = "YOUR_API_KEY_HERE"
 # ==========================================
 ``` 
+
+---
    
 ## Usage & Execution
 
@@ -101,6 +103,8 @@ Prepare a text file (e.g., ips.txt) with target IP addresses. Lines, spaces, com
 ```
 python ipsearcher.py -f ips.txt
 ```
+
+---
 
 ## Execution Workflow & Outputs
 
